@@ -66,6 +66,7 @@ textarea,
 button {
   outline: none;
   border: none;
+  
 }
 
 h1, h2, h3, h4 {
@@ -275,6 +276,7 @@ svg {
   color: white;
   font-weight: var(--font-medium);
   transition: box-shadow .4s;
+  margin-bottom: 20px;
 }
 .button:hover{
   box-shadow: 0 8px 24px hsla(var(--hue), 100%, 40%, .25);
@@ -289,7 +291,7 @@ svg {
 }
 
 .about__description{
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .about__image{
   justify-self: center;
@@ -691,7 +693,7 @@ font-weight: var(--font-medium);
     width: 550px;
   }
   .about__description{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .skills__container{
